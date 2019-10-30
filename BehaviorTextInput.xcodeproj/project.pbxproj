@@ -53,20 +53,12 @@
 			isa = PBXGroup;
 			children = (
 				DAA5131823699442001815B3 /* BehaviorTextInput.h */,
-				DAA51320236994DA001815B3 /* source */,
-				DAA5131923699442001815B3 /* Info.plist */,
-			);
-			path = BehaviorTextInput;
-			sourceTree = "<group>";
-		};
-		DAA51320236994DA001815B3 /* source */ = {
-			isa = PBXGroup;
-			children = (
 				DAA51321236994DA001815B3 /* CustomTextfield.swift */,
 				DAA51322236994DA001815B3 /* ValidationTextfield.xib */,
 				DAA51323236994DA001815B3 /* ValidationTextfield.swift */,
+				DAA5131923699442001815B3 /* Info.plist */,
 			);
-			path = source;
+			path = BehaviorTextInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +281,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BehaviorTextInput/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +306,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BehaviorTextInput/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
