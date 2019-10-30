@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source = { git: "https://github.com/trongnhan68/BehaviorTextInput.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "BehaviorTextInput/*.{h,swift,xib}"
-  swift_versions = "4.0"
+  spec.swift_versions = "4.0"
 end
