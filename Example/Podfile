@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BehaviorTextInput_Tests' do
+  pod 'BehaviorTextInput', :path => '../'
+  
+  
+end
