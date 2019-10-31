@@ -1,0 +1,16 @@
+PODS:
+  - BehaviorTextInput (0.1.0)
+
+DEPENDENCIES:
+  - BehaviorTextInput (from `../`)
+
+EXTERNAL SOURCES:
+  BehaviorTextInput:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BehaviorTextInput: 2a32801c0875c6ad6e17b3d8a2a8f0bd6a2370f8
+
+PODFILE CHECKSUM: 995767364bba080845315128da6c3b35bd14b422
+
+COCOAPODS: 1.8.4

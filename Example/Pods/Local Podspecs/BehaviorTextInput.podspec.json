@@ -1,0 +1,22 @@
+{
+  "name": "BehaviorTextInput",
+  "version": "0.1.0",
+  "summary": "A short description of BehaviorTextInput.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/trongnhan68/BehaviorTextInput",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "trongnhan68": "nhan.nlt@pycogroup.com"
+  },
+  "source": {
+    "git": "https://github.com/trongnhan68/BehaviorTextInput.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BehaviorTextInput/Classes/**/*"
+}
