@@ -9,18 +9,26 @@
 /* Begin PBXBuildFile section */
 		29C2B474C63FD8A2A68E5766 /* Pods_BehaviorTextInput_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B366B19A0BEEC57993EABC14 /* Pods_BehaviorTextInput_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		DAA51353236A7E1F001815B3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = DAA5134F236A7E1F001815B3 /* .gitkeep */; };
+		DAA51354236A7E1F001815B3 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA51350236A7E1F001815B3 /* CustomTextfield.swift */; };
+		DAA51355236A7E1F001815B3 /* ValidationTextfield.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA51351236A7E1F001815B3 /* ValidationTextfield.xib */; };
+		DAA51356236A7E1F001815B3 /* ValidationTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA51352236A7E1F001815B3 /* ValidationTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		289B1ECDA1C71170EE99BB49 /* Pods-BehaviorTextInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BehaviorTextInput_Tests.release.xcconfig"; path = "Target Support Files/Pods-BehaviorTextInput_Tests/Pods-BehaviorTextInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36523353306548266411DC37 /* Pods-BehaviorTextInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BehaviorTextInput_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BehaviorTextInput_Tests/Pods-BehaviorTextInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36DB2D87119F5471560FEB83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36DB2D87119F5471560FEB83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BehaviorTextInput_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BehaviorTextInput_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78380EDB29A331BFA2BD8995 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		789260804199A1C57D173E55 /* BehaviorTextInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BehaviorTextInput.podspec; path = ../BehaviorTextInput.podspec; sourceTree = "<group>"; };
+		78380EDB29A331BFA2BD8995 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		789260804199A1C57D173E55 /* BehaviorTextInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BehaviorTextInput.podspec; path = ../BehaviorTextInput.podspec; sourceTree = "<group>"; };
 		B366B19A0BEEC57993EABC14 /* Pods_BehaviorTextInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BehaviorTextInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA5134F236A7E1F001815B3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		DAA51350236A7E1F001815B3 /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		DAA51351236A7E1F001815B3 /* ValidationTextfield.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValidationTextfield.xib; sourceTree = "<group>"; };
+		DAA51352236A7E1F001815B3 /* ValidationTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +49,13 @@
 				36523353306548266411DC37 /* Pods-BehaviorTextInput_Tests.debug.xcconfig */,
 				289B1ECDA1C71170EE99BB49 /* Pods-BehaviorTextInput_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				DAA5134E236A7E1F001815B3 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -99,6 +107,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DAA5134E236A7E1F001815B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5134F236A7E1F001815B3 /* .gitkeep */,
+				DAA51350236A7E1F001815B3 /* CustomTextfield.swift */,
+				DAA51351236A7E1F001815B3 /* ValidationTextfield.xib */,
+				DAA51352236A7E1F001815B3 /* ValidationTextfield.swift */,
+			);
+			name = Classes;
+			path = ../BehaviorTextInput/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,10 +151,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -165,6 +182,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA51355236A7E1F001815B3 /* ValidationTextfield.xib in Resources */,
+				DAA51353236A7E1F001815B3 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA51354236A7E1F001815B3 /* CustomTextfield.swift in Sources */,
+				DAA51356236A7E1F001815B3 /* ValidationTextfield.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

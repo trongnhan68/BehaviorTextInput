@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'BehaviorTextInput/Classes/*.{h,swift,xib}'
+  s.source_files = 'BehaviorTextInput/Classes/**/*'
   s.swift_versions = '4.0'
 
   # s.resource_bundles = {
